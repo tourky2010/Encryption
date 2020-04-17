@@ -2,6 +2,7 @@
 from tkinter.filedialog import askopenfilename
 from tkinter import Tk
 import Encrypt
+
 class Orchistrator ():
     def __init__(self):
         self.encrypted_msg = b''
