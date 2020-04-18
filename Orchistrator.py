@@ -68,7 +68,7 @@ class Orchistrator ():
 
     def choose_file(self):
         Tk().withdraw()  # we don't want a full GUI, so keep the root window from appearing
-        return askopenfilename()  # show an "Open" dialog box and return the path to the selected file
+        return askopenfilename(title="Please Select a File", initialdir= "C:\\Users\\ZGKW5367\\Desktop\\")  # show an "Open" dialog box and return the path to the selected file
 
 def main():
     orc = Orchistrator()
