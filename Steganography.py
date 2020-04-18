@@ -9,7 +9,7 @@ import stegano
 from PIL import Image
 from tkinter.filedialog import askopenfilename
 from tkinter import Tk
-
+ """"""
 def choose_file():
     Tk().withdraw()  # we don't want a full GUI, so keep the root window from appearing
     return askopenfilename(title="Please Select a Text File", initialdir= "C:\\Users\\ZGKW5367\\Desktop\\")  # show an "Open" dialog box and return the path to the selected file
